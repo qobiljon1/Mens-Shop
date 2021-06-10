@@ -1,0 +1,831 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Man Shop</title>
+</head>
+
+<body>
+
+    <!-- ============HEADER START========= -->
+    <header>
+        <div class="header_top">
+            <div class="container">
+                <div class="row justify-content-md-between align-items-center justify-content-sm-center ju">
+                    <div class="col-12 col-md-auto sm_tel">
+                        <p class="header_tel">наш номер:<a href="#!">+998900157673</a> </p>
+                    </div>
+                    <div class="col-auto d-flex align-items-center xs_rus">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownLang"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                RUS
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownLang">
+                                <li><a class="dropdown-item" href="#">EN</a></li>
+                                <li><a class="dropdown-item" href="#">UZ</a></li>
+                            </ul>
+                        </div>
+                        <a href="#!" class="header_user">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                            мой акаунт
+                        </a>
+                        <button class="header_search"> <i class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_nav">
+            <div class="container">
+                <div class="row justify-content-lg-between align-items-center justify-content-center">
+                    <div class="col-lg-2 col-sm-6 text-center">
+                        <a href="#!" class="header_logo">Mens Shop</a>
+                    </div>
+                    <div class="col-lg-5 d-md-flex d-sm-none d-none d-block col-x justify-content-lg-end justify-content-md-center ">
+                        <nav class="navbar navbar-expand-lg  navbar-light">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#">Главная</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#">Ассортимент</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#">Что жарко?</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#">Скидки</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3 col-sm-7 col-auto d-flex flex-column align-items-end d-sm-flex">
+                        <div class="dropdown d-sm-none d-md-block">
+                            <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButto2"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Ваша карта
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                <li><a class="dropdown-item" href="#">VIZA</a></li>
+                                <li><a class="dropdown-item" href="#">UZcard</a></li>
+                                <li><a class="dropdown-item" href="#">HUMO</a></li>
+                            </ul>
+                        </div>
+                        <button class="header_money">
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                            <span>0 ПОКУПОК | $ 0</span>
+                        </button>
+                    </div>
+                    <div class="col-12 col-sm-7 col-auto d-sm-block  d-md-none">
+                        <nav class="navbar navbar-expand-lg  navbar-light">
+                            <a href="#!" class="link_nav">MENU</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#">Главная</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#">Ассортимент</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#">Что жарко?</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#">Скидки</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class=" menu_slider d-sm-none d-none d-md-block">
+            <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./man3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h1>mEN<br> COLLECTION</h1>
+                            <div class="btn-group dropend">
+                                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Sotib olish
+                                </button>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./man3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h1>mEN <br> COLLECTION</h1>
+                            <div class="btn-group dropend">
+                                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Sotib olish
+                                </button>
+                            </div>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./man3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h1>mEN <br> COLLECTION</h1>
+                            <div class="btn-group dropend">
+                                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Sotib olish
+                                </button>
+                            </div>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./man3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h1>mEN <br> COLLECTION</h1>
+                            <div class="btn-group dropend">
+                                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Sotib olish
+                                </button>
+                            </div>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./man3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h1>mEN <br> COLLECTION</h1>
+                            <div class="btn-group dropend">
+                                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Sotib olish
+                                </button>
+                            </div>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions1"
+                    data-bs-slide="prev">
+                    <i class="fa fa-chevron-left"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions1"
+                    data-bs-slide="next">
+                    <i class="fa fa-chevron-right"></i>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- ============= MAIN STARTING ============== -->
+    <main>
+        <div class="main_top">
+            <div class="container">
+                <div class="row justify-content-md-between align-items-center justify-content-center">
+                    <div class="col-lg-2 col-md-6 col-sm-7 col-auto mb-sm-4 mb-md-0 mb-3">
+                        <input type="search" placeholder="Ваш email" required class="main_email">
+                    </div>
+                    <div class="col-lg-auto col-md-6 col-sm-7 col-auto d-md-flex align-items-center justify-content-end justify-content-center d-sm-none d-none d-md-block">
+                        <p>Наши соц сети</p>
+                        <ul>
+                            <li><a href="#!"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#!"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#!"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_brand d-sm-none d-none d-md-block">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5 col-md-7">
+                        <div class="card">
+                            <img src="./brand img/brand1.jpg" class="card-img-top" alt="rasm">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="./brand img/brand2.jpg" class="card-img-top" alt="rasm">
+                        </div>
+                        <div class="card watch">
+                            <img src="./brand img/brand3.jpg" class="card-img-top" alt="rasm">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 align-self-center">
+                        <div class="card">
+                            <img src="./brand img/brand4.jpg" class="card-img-top" alt="rasm">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog_price">
+            <div class="container sm_pm">
+                <div role="tabpanel">
+                    <!-- List group -->
+                    <div class="list-group" id="myList" role="tablist">
+                        <a class="list-group-item list-group-item-action active" data-bs-toggle="list" href="#home"
+                            role="tab">Что жарко? <i class="fa fa-hand-o-down d-md-none
+                            "></i></a>
+                        <a class="list-group-item list-group-item-action d-sm-none d-none d-md-block" data-bs-toggle="list" href="#profile"
+                            role="tab">Дизайнеры </a>
+                        <a class="list-group-item list-group-item-action d-sm-none d-none d-md-block" data-bs-toggle="list" href="#messages"
+                            role="tab">коллекции </a>
+                        <a class="list-group-item list-group-item-action d-sm-none d-none d-md-block" data-bs-toggle="list" href="#settings"
+                            role="tab">скидки</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane active" id="home" role="tabpanel">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6 mb-sm-3">
+                                <div class="card">
+                                    <img src="./price img/price1.jpg" class="card-img-top" alt="rasm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">рубашка белая</h5>
+                                        <span>$30.00</span>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                сотиб олиш
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mb-sm-3">
+                                <div class="card">
+                                    <img src="./price img/price2.jpg" class="card-img-top" alt="rasm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">ПИДЖАК</h5>
+                                        <span>$30.00</span>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                сотиб олиш
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mt-md-3 mt-lg-0">
+                                <div class="card">
+                                    <img src="./price img/price3'.jpg" class="card-img-top" alt="rasm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">плащ</h5>
+                                        <span>$30.00</span>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                сотиб олиш
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mt-md-3 mt-lg-0">
+                                <div class="card">
+                                    <img src="./price img/price4'.jpg" class="card-img-top" alt="rasm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Брюки</h5>
+                                        <span>$30.00</span>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                сотиб олиш
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="profile" role="tabpanel">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 ">
+                                <div class="card">
+                                    <img src="./price img/price2.jpg" class="card-img-top" alt="rasm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">рубашка белая</h5>
+                                        <span>$30.00</span>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                сотиб олиш
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card">
+                                    <img src="./price img/price3'.jpg" class="card-img-top" alt="rasm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">ПИДЖАК</h5>
+                                        <span>$30.00</span>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                сотиб олиш
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mt-md-3 mt-lg-0">
+                                <div class="card">
+                                    <img src="./price img/price4'.jpg" class="card-img-top" alt="rasm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">плащ</h5>
+                                        <span>$30.00</span>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                сотиб олиш
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mt-md-3 mt-lg-0">
+                                <div class="card">
+                                    <img src="./price img/price1.jpg" class="card-img-top" alt="rasm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Брюки</h5>
+                                        <span>$30.00</span>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                сотиб олиш
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="messages" role="tabpanel">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card">
+                                    <img src="./price img/price3'.jpg" class="card-img-top" alt="rasm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">рубашка белая</h5>
+                                        <span>$30.00</span>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                сотиб олиш
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card">
+                                    <img src="./price img/price4'.jpg" class="card-img-top" alt="rasm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">ПИДЖАК</h5>
+                                        <span>$30.00</span>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                сотиб олиш
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mt-md-3 mt-lg-0">
+                                <div class="card">
+                                    <img src="./price img/price1.jpg" class="card-img-top" alt="rasm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">плащ</h5>
+                                        <span>$30.00</span>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                сотиб олиш
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mt-md-3 mt-lg-0">
+                                <div class="card">
+                                    <img src="./price img/price2.jpg" class="card-img-top" alt="rasm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Брюки</h5>
+                                        <span>$30.00</span>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                сотиб олиш
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="settings" role="tabpanel">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card">
+                                    <img src="./price img/price4'.jpg" class="card-img-top" alt="rasm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">рубашка белая</h5>
+                                        <span>$30.00</span>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                сотиб олиш
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card">
+                                    <img src="./price img/price2.jpg" class="card-img-top" alt="rasm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">ПИДЖАК</h5>
+                                        <span>$30.00</span>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                сотиб олиш
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mt-md-3 mt-lg-0">
+                                <div class="card">
+                                    <img src="./price img/price1.jpg" class="card-img-top" alt="rasm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">плащ</h5>
+                                        <span>$30.00</span>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                сотиб олиш
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mt-md-3 mt-lg-0">
+                                <div class="card">
+                                    <img src="./price img/price3'.jpg" class="card-img-top" alt="rasm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Брюки</h5>
+                                        <span>$30.00</span>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                сотиб олиш
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <!-- ============= SECTION STARTING ============== -->
+
+    <section class="sale_off">
+        <div class="container">
+            <div class="sale">
+                <a href="#!" class="sale_link"><img src="skidka.png" alt="skidka"></a>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-3 mb-sm-0">
+                    <div class="card">
+                        <img src="./price img/price1.jpg" class="card-img-top" alt="rasm">
+                        <div class="card-body">
+                            <h5 class="card-title">рубашка белая</h5>
+                            <span>$30.00</span>
+                            <div class="btn-group dropend">
+                                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    сотиб олиш
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-3 mb-sm-0">
+                    <div class="card">
+                        <img src="./price img/price2.jpg" class="card-img-top" alt="rasm">
+                        <div class="card-body">
+                            <h5 class="card-title">рубашка белая</h5>
+                            <span>$30.00</span>
+                            <div class="btn-group dropend">
+                                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    сотиб олиш
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mt-sm-3 mt-lg-0 mb-3">
+                    <div class="card">
+                        <img src="./price img/price3'.jpg" class="card-img-top" alt="rasm">
+                        <div class="card-body">
+                            <h5 class="card-title">рубашка белая</h5>
+                            <span>$30.00</span>
+                            <div class="btn-group dropend">
+                                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    сотиб олиш
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mt-sm-3 mt-lg-0 mb-3">
+                    <div class="card">
+                        <img src="./price img/price4'.jpg" class="card-img-top" alt="rasm">
+                        <div class="card-body">
+                            <h5 class="card-title">рубашка белая</h5>
+                            <span>$30.00</span>
+                            <div class="btn-group dropend">
+                                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    сотиб олиш
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brands d-none d-sm-block">
+            <div class="brands_title">
+                <h3><span>favourite brands</span></h3>
+            </div>
+            <div class="bottom_slider">
+                <div class="container">
+                    <ul>
+                        <li><a href="#!"><img src="./layer/Layer 1.png" alt="png"></a></li>
+                        <li><a href="#!"><img src="./layer/Layer 2.png" alt="png"></a></li>
+                        <li><a href="#!"><img src="./layer/Layer 3.png" alt="png"></a></li>
+                        <li><a href="#!"><img src="./layer/Layer 4.png" alt="png"></a></li>
+                        <li><a href="#!"><img src="./layer/Layer 5.png" alt="png"></a></li>
+                        <li><a href="#!"><img src="./layer/Layer 6.png" alt="png"></a></li>
+                        <li><a href="#!"><img src="./layer/Layer 7.png" alt="png"></a></li>
+                        <li><a href="#!"><img src="./layer/Layer 8.png" alt="png"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="information_text">
+            <div class="container">
+                <h3>
+                    ПОДРОБНЕЕ О MANS SHOP
+                </h3>
+                <p>
+                    This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+                    sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                    Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec
+                    tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris
+                    in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============  FOOTER STARTING  ============== -->
+
+    <footer>
+        <div class="footer_top">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-7">
+                        <div class="row justify-content-md-around ">
+                            <div class="d-flex justify-content-center col-auto col-md-3 col-6">
+                                <div class="info">
+                                    <h3>Наш сервис</h3>
+                                    <ul>
+                                        <li><a href="#!">Contact</a></li>
+                                        <li><a href="#!">FAQ</a></li>
+                                        <li><a href="#!">Terms of payment</a></li>
+                                        <li><a href="#!">Terms of sale</a></li>
+                                        <li><a href="#!">Delivery terms and conditions</a></li>
+                                        <li><a href="#!">Returns and Refunds</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center col-auto col-md-3 col-6">
+                                <div class="info">
+                                    <h3>Информация</h3>
+                                    <ul>
+                                        <li><a href="#!">Affiliate</a></li>
+                                        <li><a href="#!">Cookies</a></li>
+                                        <li><a href="#!">How to Shop</a></li>
+                                        <li><a href="#!">About Nelly</a></li>
+                                        <li><a href="#!">Investor relations</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center col-auto col-md-3 col-6 mt-md-0 mt-3">
+                                <div class="info">
+                                    <h3>Компании </h3>
+                                    <ul>
+                                        <li><a href="#!">Evening dresses</a></li>
+                                        <li><a href="#!">Makeup</a></li>
+                                        <li><a href="#!">Fashion forward</a></li>
+                                        <li><a href="#!">training clothes</a></li>
+                                        <li><a href="#!">Special Occasion Dresses</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center col-auto col-md-3 col-6 mt-md-0 mt-3 ">
+                                <div class="info">
+                                    <h3>История</h3>
+                                    <ul>
+                                        <li><a href="#!">Paris </a></li>
+                                        <li><a href="#!">New York</a></li>
+                                        <li><a href="#!">London</a></li>
+                                        <li><a href="#!">Madrid</a></li>
+                                        <li><a href="#!">Tokio</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center mt-md-4 mt-lg-0 mt-sm-5 mt-5">
+                        <div class="social">
+                            <h3>
+                                Соц сети
+                            </h3>
+                            <div class="social_icons d-flex">
+                                <div class="icon">
+                                    <ul class="d-flex list-unstyled m-0">
+                                        <li><a href="#!"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#!"><i class="fa fa-telegram"></i></a></li>
+                                        <li><a href="#!"><i class="fa fa-facebook"></i></a></li>
+                                    </ul>
+                                    <ul class="d-flex list-unstyled m-0">
+                                        <li><a href="#!"><i class="fa fa-google"></i></a></li>
+                                        <li><a href="#!"><i class="fa fa-youtube"></i></a></li>
+                                        <li><a href="#!"><i class="fa fa-whatsapp"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="securit_img">
+                                    <img src="footer.png" alt="png">
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row justify-content-md-between align-items-md-center justify-content-sm-end justify-content-center">
+                    <div class="col-auto d-sm-none d-none d-md-block">
+                        <ul class="d-flex list-unstyled">
+                            <li><a class="text-decoration-none" href="#!">Privacy & Cookies</a></li>
+                            <li><a class="text-decoration-none" href="#!">Terms & Conditions</a></li>
+                            <li><a class="text-decoration-none" href="#!">Accessibility</a></li>
+                            <li><a class="text-decoration-none" href="#!">Store Directory</a></li>
+                            <li><a class="text-decoration-none" href="#!">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <div class="adress">
+                            <a href="#!">© MensShop.com</a>
+                            <p>All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>
